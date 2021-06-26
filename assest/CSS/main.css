@@ -1,0 +1,274 @@
+body{
+    font-family: Open Sans ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+}
+#header{
+    background: #23282d;
+    padding-top: 24px;
+    padding-bottom: 9px;
+    margin-bottom: 26px;
+}
+form#search{
+    position: relative;
+}
+form#search input{
+    width: 248px;
+    background: #131619;
+    border: none;
+    padding: 9px 42px 9px 15px;
+    outline: none;
+    color:#909090 ;
+}
+form#search::placeholder{
+    color: #909090;
+}
+form#search button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 7px 11px;
+    background: none;
+    border: none;
+    color: #a2a1a1;
+    outline: none;
+}
+ul{
+    padding: 0px;
+    margin:  0px;
+    list-style: none;
+}
+
+#main-menu li a{
+    display: block;
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 5px 20px;
+
+}
+#main-menu li a:hover{
+    color: #39759a;
+}
+ul#main-menu li:first-child a{
+    padding-left: 0px;
+}
+nav{
+    margin-top: 7px;
+    flex: 100%;
+    border-right: 10px solid #ff2d2d;
+}
+/* ==========future post================ */
+.future-post{
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+.box-head{
+    margin-bottom: 20px;
+}
+.box .box-head h3{
+    display: inline-block;
+    color: #eeeeee;
+    background: #23282d;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1px 15px;
+    font-size: 16px;
+}
+ul.list-future-post li{
+    flex: 360px 0 1;
+
+}
+ul.list-future-post li a.post-title {
+    display: block;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+    color: #5f5f5f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+ul.list-future-post li a.post-thumb{
+    display: block;
+    overflow: hidden;
+}
+ul.list-future-post li a.post-thumb:hover img{
+    transition: all 0.25s;
+
+}
+ul.list-future-post li a.post-thumb:hover img{
+    transform: scale(1.05);
+
+}
+/* ==============WP-CONTENT=========== */
+#content{
+    flex: 765px;
+    padding-right: 15px;
+}
+#sidebar{
+    flex: 375px;
+    padding-left: 15px;
+}
+/* ================CONTENT============== */
+#content .box .box-head{
+    margin-bottom: 30px;
+}
+.new-post .box-head h3{
+    background-color: #4db2ec;
+}
+.new-post .box-head{
+    border-bottom: 2px solid #4db2ec ;
+}
+ul.list-post li{
+    display: flex;
+    margin-bottom: 40px;
+}
+ul.list-post li a.post-thumb{
+    padding-right: 15px;
+    flex: 280px;
+    display: block;
+}
+ul.list-post li .more-info{
+    padding-left: 15px;
+}
+ul.list-post li .more-info .post-title{
+    display: block;
+    font-size: 21px;
+    font-weight: 600;
+    color: #111111;
+    text-decoration: none;
+    
+}
+ul.list-post li .more-info .post-title:hover{
+    color: #4db2ec;
+}
+ul.list-post li .more-info .post-pulished{
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 0px ;
+}
+ul.list-post li .more-info .post-pulished .post-author{
+    color: #111111;
+}
+ul.list-post li .more-info .post-pulished span.post-date{
+    color: #cfcfcf;
+}
+ul.list-post li .more-info p{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+/* ===========SIDEBAR================ */
+#sidebar a.ads{
+    display: block;
+    margin-bottom: 40px;
+    opacity: 48%;
+}
+#sidebar .box .box-head{
+    border-bottom: 1px solid #ff2d2d;
+    margin-bottom: 26px;
+}
+#sidebar .box .box-head h3{
+    background: #ff2d2d;
+}
+#sidebar .top-topic .list-topic{
+    margin-right: 25px;
+}
+#sidebar .top-topic .list-topic li{
+    padding: 6px 0px;
+}
+#sidebar .top-topic .list-topic li a{
+    display: flex;
+    justify-content: space-between;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+#sidebar .top-topic .list-topic li:hover a{
+    color:#ff2d2d ;
+}
+/* ==============footer================ */
+#footer{
+    background: #2e2f30;
+    padding: 52px 0px 75px 0px;
+    color: #f6f6f6;
+}
+#footer .box-head{
+    margin-bottom: 40px;
+}
+#footer .box .box-head h3{
+    padding: 0px;
+    background: none;
+    font-size: 18px;
+}
+#footer .logo-footer{
+    flex: 280px;
+    padding-right: 15px;
+}
+#footer .logo-footer .box-head{
+    visibility: hidden;
+}
+#footer .about-us{
+    flex: 680px;
+    padding-left: 15px;
+    padding-right: 180px;
+}
+#footer .about-us .box-body{
+    font-size: 14px;
+}
+#footer .follow-us{
+    flex: 180px;
+    padding-left: 15px;
+}
+#footer .about-us a{
+    color: #3e779a;
+}
+#footer .follow-us ul{
+    display: flex;
+}
+#footer .follow-us .box-body ul.list-social li{
+    margin-right: 15px;
+}
+#footer .follow-us .box-body ul.list-social li a{
+    display: block;
+    background: #434648;
+    padding: 6px 10px;
+    color: #eee;
+}
+#footer .follow-us .box-body ul.list-social li:hover a{
+    color: #4ca4d6;
+    justify-content: space-between;
+}
+/* ==============================coppyright============================= */
+#wp-coppyright{
+    background: #222527;
+    color: #d4d4d4;
+}
+#wp-coppyright .coppyright{
+    padding: 10px 0px;
+    margin-bottom: 0px;
+}
+#wp-coppyright #footer-menu{
+    padding: 10px 0px;
+}
+#wp-coppyright #footer-menu li a{
+    display: block;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+#wp-coppyright #footer-menu li:hover a{
+    color: #4db2ec;
+}
+
+
+
+
